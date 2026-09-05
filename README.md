@@ -4,5 +4,5 @@ Sistema de recomendaciones de videojuegos desarrollado para la materia Estructur
 
 ## Integrantes - Grupo 25
 - Juan Tenorio
-- Leon Brayerño
+- Leon Brañeryo
 - Tobias Cafardo
