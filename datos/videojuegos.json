@@ -1,0 +1,12 @@
+[
+  {"titulo": "The Witcher 3: Wild Hunt", "genero": "RPG", "rating": 9.5, "plataforma": "PC / Console"},
+  {"titulo": "Hollow Knight", "genero": "Metroidvania", "rating": 9.2, "plataforma": "PC / Switch"},
+  {"titulo": "Red Dead Redemption 2", "genero": "Accion / Aventura", "rating": 9.7, "plataforma": "PC / Console"},
+  {"titulo": "Elden Ring", "genero": "Soulslike / RPG", "rating": 9.6, "plataforma": "PC / Console"},
+  {"titulo": "Celeste", "genero": "Plataformas", "rating": 9.0, "plataforma": "PC / Switch"},
+  {"titulo": "God of War", "genero": "Accion", "rating": 9.4, "plataforma": "PC / PlayStation"},
+  {"titulo": "Minecraft", "genero": "Sandbox", "rating": 9.0, "plataforma": "Multiplataforma"},
+  {"titulo": "Cyberpunk 2077", "genero": "RPG / Sci-Fi", "rating": 8.6, "plataforma": "PC / Console"},
+  {"titulo": "Hadès", "genero": "Roguelike", "rating": 9.3, "plataforma": "PC / Switch"},
+  {"titulo": "Portal 2", "genero": "Puzles", "rating": 9.8, "plataforma": "PC"}
+]
