@@ -28,7 +28,7 @@ Gamers y jugadores ocasionales que buscan descubrir nuevos juegos rápidamente d
 
 ## Diagrama de Clases (Básico)
 +---------------------------------------+
-|              Videojuego               |
+|               Videojuego              |
 +---------------------------------------+
 | - _titulo: str                        |
 | - _genero: str                        |
