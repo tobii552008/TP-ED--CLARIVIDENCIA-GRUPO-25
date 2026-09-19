@@ -35,7 +35,7 @@ class ArbolBinarioBusqueda:
             return None
         
         titulo_actual = actual.videojuego.titulo.lower()
-        if titulo in titulo_actual:
+        if titulo == titulo_actual:
             return actual.videojuego
         elif titulo < titulo_actual:
             return self._buscar_rec(actual.izquierdo, titulo)
