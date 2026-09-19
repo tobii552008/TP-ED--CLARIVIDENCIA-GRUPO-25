@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from modelos.videojuego import Videojuego
+from estructuras.arbol_binario import ArbolBinarioBusqueda
 
 def cargar_datos():
     with open("datos/videojuegos.json", "r", encoding="utf-8") as f:
@@ -24,14 +25,12 @@ def mostrar_menu():
     print("0. Salir")
     print("-" * 40)
 
-def buscar(juegos):
-    titulo = input("\nTitulo a buscar: ")
-    encontrado = False
-    for j in juegos:
-        if titulo.lower() in j.titulo.lower():
-            print(f"- {j}")
-            encontrado = True
-    if not encontrado:
+def buscar(arbol): 
+    titulo = input("\nTitulo exacto a buscar: ")
+    juego = arbol.buscar(titulo.strip())
+    if juego: 
+        print(f"- {juego}")
+    else:
         print("No se encontraron coincidencias.")
     print("Fin de resultados.")
 
@@ -52,11 +51,16 @@ def filtrar(juegos):
 
 def main():
     juegos = cargar_datos()
+
+    arbol = ArbolBinarioBusqueda()
+    for j in juegos: 
+        arbol.insertar(j)
+
     while True:
         mostrar_menu()
         opcion = input("Opcion: ")
         if opcion == "1":
-            buscar(juegos)
+            buscar(arbol)
         elif opcion == "2":
             listar(juegos)
         elif opcion == "3":
