@@ -18,7 +18,7 @@ def probar():
             arbol.insertar(juego)
 
     print("--- Probando Búsqueda ---")
-    res = arbol.buscar("zelda")
+    res = arbol.buscar("God of War")
     if res:
         print(f"Encontrado: {res.titulo}")
     else:
