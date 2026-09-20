@@ -24,10 +24,21 @@ def probar():
     else:
         print("No se encontró")
 
-    print("\n--- Probando Recorridos ---")
-    print("InOrder:", [j.titulo for j in arbol.inorder()[:3]])
-    print("PreOrder:", [j.titulo for j in arbol.preorder()[:3]])
-    print("PostOrder:", [j.titulo for j in arbol.postorder()[:3]])
+    print("\n--- Altura del árbol ---")
+    print("Altura:",arbol.altura())
+
+    print("\n--- inorder (ordenado alfabéticamente) ---")
+    for j in arbol.inorder(): 
+        print(" ", j.titulo)
+
+    print("\n--- preorder ---")
+    for j in arbol.preorder():
+        print(" ", j.titulo)
+
+    print("\n--- postorder ---")
+    for j in  arbol.postorder(): 
+        print(" ", j.titulo)
 
 if __name__ == "__main__":
     probar()
+

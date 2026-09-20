@@ -71,3 +71,12 @@ class ArbolBinarioBusqueda:
                 lista.append(nodo.videojuego)
         _postorder(self.raiz)
         return lista
+
+    def altura(self): 
+        return self._altura_rec(self.raiz)
+
+    def _altura_rec(self,nodo):
+        if nodo is None: 
+            return 0
+        return 1 + max(self._altura_rec(nodo.izquierdo), self._altura_rec(nodo.derecho))
+        
