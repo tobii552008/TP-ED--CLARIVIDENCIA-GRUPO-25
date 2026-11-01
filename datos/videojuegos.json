@@ -8,5 +8,19 @@
   {"titulo": "Minecraft", "genero": "Sandbox", "rating": 9.0, "plataforma": "Multiplataforma"},
   {"titulo": "Cyberpunk 2077", "genero": "RPG / Sci-Fi", "rating": 8.6, "plataforma": "PC / Console"},
   {"titulo": "Hadès", "genero": "Roguelike", "rating": 9.3, "plataforma": "PC / Switch"},
-  {"titulo": "Portal 2", "genero": "Puzles", "rating": 9.8, "plataforma": "PC"}
+  {"titulo": "Portal 2", "genero": "Puzles", "rating": 9.8, "plataforma": "PC"},
+  {"titulo": "Baldur's Gate 3", "genero": "RPG / Estrategia", "rating": 9.6, "plataforma": "PC / Console"},
+  {"titulo": "Grand Theft Auto V", "genero": "Accion / Aventura", "rating": 9.1, "plataforma": "PC / Console"},
+  {"titulo": "Stardew Valley", "genero": "Simulacion / RPG", "rating": 9.4, "plataforma": "Multiplataforma"},
+  {"titulo": "Resident Evil 4", "genero": "Survival Horror / Accion", "rating": 9.3, "plataforma": "PC / Console"},
+  {"titulo": "Monster Hunter: World", "genero": "Accion / RPG", "rating": 9.0, "plataforma": "PC / Console"},
+  {"titulo": "Counter-Strike 2", "genero": "Shooter / Competitivo", "rating": 8.5, "plataforma": "PC"},
+  {"titulo": "Doom Eternal", "genero": "Shooter / Accion", "rating": 9.2, "plataforma": "PC / Console"},
+  {"titulo": "Apex Legends", "genero": "Shooter / Battle Royale", "rating": 8.8, "plataforma": "Multiplataforma"},
+  {"titulo": "Titanfall 2", "genero": "Shooter / Accion", "rating": 9.4, "plataforma": "PC / Console"},
+  {"titulo": "Half-Life: Alyx", "genero": "Shooter / VR", "rating": 9.7, "plataforma": "PC (VR)"},
+  {"titulo": "Valorant", "genero": "Shooter / Competitivo", "rating": 8.6, "plataforma": "PC"},
+  {"titulo": "Fortnite", "genero": "Shooter / Battle Royale", "rating": 8.4, "plataforma": "Multiplataforma"},
+  {"titulo": "Roblox", "genero": "Sandbox / Multijugador", "rating": 8.0, "plataforma": "Multiplataforma"},
+  {"titulo": "The Legend of Zelda: Ocarina of Time", "genero": "Aventura / RPG", "rating": 9.9, "plataforma": "Nintendo / Retro"}
 ]
