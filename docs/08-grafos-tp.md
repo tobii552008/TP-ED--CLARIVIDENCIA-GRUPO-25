@@ -5,7 +5,7 @@ Para esta última etapa de la materia, sumamos la estructura de **Grafos** al pr
 
 ## 2. ¿Cómo se aplicaría en el Game Advisor?
 Pensamos el grafo de la siguiente manera:
-* **Nodos:** Cada videojuego de nuestro archivo de datos (`videojuegos.json`)[cite: 1].
+* **Nodos:** Cada videojuego de nuestro archivo de datos (`videojuegos.json`)
 * **Aristas y Pesos:** Relaciones cruzadas (por ejemplo, juegos de la misma saga, género o desarrollador), donde el peso representa el grado de similitud.
 
 ## 3. Algoritmos implementados
